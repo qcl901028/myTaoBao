@@ -1,6 +1,9 @@
 ###淘宝我的界面波浪线
 ######先看图片
-![模仿淘宝.gif](/Users/hezhijingwei/Desktop/模仿淘宝.gif)
+
+
+![模仿淘宝.gif](./模仿淘宝.gif)
+
 
 
 demo没进行封装，内容的实现主要使用了CADisplayLink定时器，UIBezierPath结合CAShaperLayer 实现的双波浪效果，用了Model转场动画实现的下拉跳转界面
@@ -14,13 +17,17 @@ demo没进行封装，内容的实现主要使用了CADisplayLink定时器，UIB
 y = Asin(wx+Q) + S;
 ```
 
-![55969228-C38F-42FC-8B4D-25D49C54EE4F.png](/Users/hezhijingwei/Desktop/55969228-C38F-42FC-8B4D-25D49C54EE4F.png)
+![55969228-C38F-42FC-8B4D-25D49C54EE4F.png](./55969228-C38F-42FC-8B4D-25D49C54EE4F.png)
+
+
 
 
 对应的图片是这样的
 
 
-![u=2166549996,3486693099&fm=23&gp=0.jpg](/Users/hezhijingwei/Desktop/u=2166549996,3486693099&fm=23&gp=0.jpg)
+![u=2166549996,3486693099&fm=23&gp=0.jpg](./u=2166549996,3486693099&fm=23&gp=0.jpg)
+
+
 
 
 
@@ -118,9 +125,7 @@ S 是用来调整上下的位置
 ##### 三、绘制下面的圆弧
 
 
-![5550717FD6EF24BA22462D927FD0F25D.jpg](/Users/hezhijingwei/Desktop/5550717FD6EF24BA22462D927FD0F25D.jpg)
-
-
+![5550717FD6EF24BA22462D927FD0F25D.jpg](./5550717FD6EF24BA22462D927FD0F25D.jpg)
 
 
 代码
@@ -290,29 +295,5 @@ typedef NS_ENUM(NSInteger, CLImitationTaoBaoModelType) {
 
 
 最后附Demo地址：https://github.com/qcl901028/myTaoBao
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
