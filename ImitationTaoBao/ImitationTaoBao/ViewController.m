@@ -87,7 +87,6 @@
 - (void)layer {
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 260)];
     view.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:view];
     self.headerView = view;
     self.tableView.tableHeaderView = self.headerView;
     CAShapeLayer *layer2 = [CAShapeLayer layer];
